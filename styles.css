@@ -1,0 +1,33 @@
+.transiton-fade{
+    opacity: 1;
+    transition: 500ms;
+    transform: translateX(0);
+    transform-origin: left;
+}
+
+html.is-animating .transiton-fade{
+    opacity: 0;
+    transform: translateX(100%);
+
+}
+
+html.is-leaving .transiton-fade{
+    opacity: 0;
+    transform: translateX(0);
+}
+
+
+
+.transition-swipe{
+    opacity: 1;
+    transition: 500ms;
+    transform: translateX(0);
+    transform-origin: left;
+}
+
+html.is-animating .transition-swipe{
+    opacity: 0;
+    transform: translateX(100%);
+
+}
+
